@@ -1,0 +1,363 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1759691437050475, "dur":32052, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759691437082537, "dur":86, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759691437082663, "dur":508, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759691437083822, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1759691437084110, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1759691437084265, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1759691437083191, "dur":3223, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759691437086415, "dur":1925462, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759691439011878, "dur":271, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759691439012149, "dur":230, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759691439012576, "dur":1918, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1759691437084339, "dur":2104, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759691437086449, "dur":765, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759691437087214, "dur":4749, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759691437091986, "dur":175, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1759691437091970, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nkums/Downloads/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1759691437183763, "dur":1877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1759691437185666, "dur":1826189, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1759691437084276, "dur":2145, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1759691437086426, "dur":5267, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1759691437091716, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1759691437091843, "dur":156, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1759691437092004, "dur":10756, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1759691437102761, "dur":123, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1759691437103014, "dur":104, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Adithya-S stuff\\Unity Stuff\\My Stuff\\SQUEEMAN\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1759691437103119, "dur":123, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Adithya-S stuff\\Unity Stuff\\My Stuff\\SQUEEMAN\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1759691437103243, "dur":71, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Adithya-S stuff\\Unity Stuff\\My Stuff\\SQUEEMAN\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":2, "ts":1759691437103315, "dur":202, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Adithya-S stuff\\Unity Stuff\\My Stuff\\SQUEEMAN\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":2, "ts":1759691437103517, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Adithya-S stuff\\Unity Stuff\\My Stuff\\SQUEEMAN\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TerrainTools.dll" }}
+,{ "pid":12345, "tid":2, "ts":1759691437103586, "dur":311, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Adithya-S stuff\\Unity Stuff\\My Stuff\\SQUEEMAN\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1759691437103898, "dur":177, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Adithya-S stuff\\Unity Stuff\\My Stuff\\SQUEEMAN\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1759691437104075, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Adithya-S stuff\\Unity Stuff\\My Stuff\\SQUEEMAN\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":2, "ts":1759691437104143, "dur":200, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Adithya-S stuff\\Unity Stuff\\My Stuff\\SQUEEMAN\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1759691437104344, "dur":123, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Adithya-S stuff\\Unity Stuff\\My Stuff\\SQUEEMAN\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1759691437104468, "dur":153, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Adithya-S stuff\\Unity Stuff\\My Stuff\\SQUEEMAN\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":2, "ts":1759691437104622, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Adithya-S stuff\\Unity Stuff\\My Stuff\\SQUEEMAN\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":2, "ts":1759691437104697, "dur":180, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Adithya-S stuff\\Unity Stuff\\My Stuff\\SQUEEMAN\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1759691437104877, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Adithya-S stuff\\Unity Stuff\\My Stuff\\SQUEEMAN\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1759691437091784, "dur":13227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1759691437105534, "dur":1897221, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1759691439005789, "dur":4927, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1759691439005789, "dur":4929, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nkums/Downloads/SQUEEMAN_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1759691439010737, "dur":1001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1759691437084612, "dur":2184, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759691437086797, "dur":4941, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759691437091750, "dur":161, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":3, "ts":1759691437091739, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nkums/Downloads/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1759691437091913, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759691437103333, "dur":1181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1759691437104548, "dur":942, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759691437105510, "dur":1260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759691437106827, "dur":1444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759691437108418, "dur":2699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759691437111164, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759691437111247, "dur":1414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759691437112836, "dur":2101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759691437115076, "dur":3533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/Unity.TerrainTools.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759691437118774, "dur":2470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759691437121310, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759691437121395, "dur":2416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759691437123933, "dur":2797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759691437126767, "dur":1234, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759691437128021, "dur":4187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759691437132307, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759691437132402, "dur":4134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759691437136577, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759691437136740, "dur":4263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759691437141039, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759691437141139, "dur":4551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759691437145739, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759691437145853, "dur":7937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759691437153889, "dur":5204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1759691437159143, "dur":1852716, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759691437084492, "dur":2271, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759691437086763, "dur":4936, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759691437091712, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759691437092707, "dur":1609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1759691437094319, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nkums/Downloads/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1759691437095062, "dur":723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1759691437095874, "dur":1014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN.exe" }}
+,{ "pid":12345, "tid":4, "ts":1759691437096915, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nkums/Downloads/SQUEEMAN_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1759691437097262, "dur":4210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1759691437101556, "dur":2299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759691437103997, "dur":2004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759691437106057, "dur":1101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759691437107185, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759691437107336, "dur":1100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759691437108490, "dur":2241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759691437110896, "dur":1444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759691437112439, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759691437112557, "dur":2145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759691437114782, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759691437114911, "dur":3410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759691437118465, "dur":2152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759691437120697, "dur":199, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759691437120923, "dur":1447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759691437122401, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759691437122473, "dur":2652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759691437125175, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759691437125271, "dur":5073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759691437130395, "dur":225, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759691437130635, "dur":3502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759691437134196, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759691437134341, "dur":4193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759691437138617, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759691437138715, "dur":4542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759691437143309, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759691437143426, "dur":4804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759691437148279, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759691437148278, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nkums/Downloads/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759691437148429, "dur":16059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759691437164523, "dur":1847348, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759691437084592, "dur":2196, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759691437086788, "dur":4912, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759691437091717, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1759691437091707, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nkums/Downloads/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1759691437091798, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759691437122766, "dur":2016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1759691437124872, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759691437124945, "dur":5975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759691437130984, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759691437131083, "dur":3673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759691437134850, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759691437134932, "dur":4709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759691437139686, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759691437139797, "dur":4484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759691437144340, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759691437144444, "dur":5672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759691437150277, "dur":8104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1759691437158495, "dur":1853392, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759691437084821, "dur":1995, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759691437086816, "dur":5062, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759691437091882, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nkums/Downloads/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1759691437092087, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759691437156475, "dur":2477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1759691437159016, "dur":1852907, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759691437084866, "dur":1975, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759691437086841, "dur":5021, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759691437091866, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nkums/Downloads/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1759691437092071, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759691437154756, "dur":2394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1759691437157290, "dur":1854634, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759691437084868, "dur":1977, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759691437086845, "dur":5011, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759691437091865, "dur":294, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":8, "ts":1759691437091860, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nkums/Downloads/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1759691437092161, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759691437194113, "dur":880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1759691437195020, "dur":1816853, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1759691437084894, "dur":1959, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1759691437086853, "dur":4994, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1759691437091854, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nkums/Downloads/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1759691437092074, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1759691437167106, "dur":1006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1759691437168141, "dur":1843787, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1759691437084879, "dur":1971, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1759691437086850, "dur":5018, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1759691437091875, "dur":323, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1759691437091872, "dur":327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nkums/Downloads/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1759691437092200, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1759691437204935, "dur":1993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1759691437206954, "dur":1804918, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1759691437084299, "dur":2130, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1759691437086433, "dur":729, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1759691437087162, "dur":4557, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1759691437091723, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nkums/Downloads/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1759691437091804, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1759691437093286, "dur":1085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1759691437094397, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1759691437094396, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nkums/Downloads/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1759691437094729, "dur":982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1759691437095760, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1759691437095759, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nkums/Downloads/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1759691437095887, "dur":2979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1759691437099116, "dur":2331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1759691437101546, "dur":1956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":11, "ts":1759691437103568, "dur":2009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1759691437105631, "dur":1476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1759691437107164, "dur":847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1759691437108079, "dur":2580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1759691437110736, "dur":1935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1759691437112758, "dur":1615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":11, "ts":1759691437114452, "dur":2226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":11, "ts":1759691437116748, "dur":2139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1759691437118926, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1759691437119056, "dur":2143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1759691437121272, "dur":2122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1759691437123484, "dur":2512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1759691437126093, "dur":5201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1759691437131333, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1759691437131398, "dur":3639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1759691437135101, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1759691437135176, "dur":4810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1759691437140023, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1759691437140101, "dur":4454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1759691437144594, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1759691437144772, "dur":5909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1759691437150747, "dur":4254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1759691437155046, "dur":1856829, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1759691437084326, "dur":2110, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1759691437086441, "dur":691, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1759691437087132, "dur":4668, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1759691437091807, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nkums/Downloads/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1759691437091940, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1759691437133141, "dur":1373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1759691437134628, "dur":4616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1759691437139279, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1759691437139418, "dur":4331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1759691437143801, "dur":168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1759691437143990, "dur":4381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1759691437148508, "dur":2561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":12, "ts":1759691437151116, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1759691437151207, "dur":3169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1759691437154597, "dur":4266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1759691437158921, "dur":1852943, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1759691437084362, "dur":2144, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1759691437086520, "dur":766, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1759691437087286, "dur":4706, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1759691437091993, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nkums/Downloads/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1759691437173553, "dur":960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1759691437174543, "dur":1837317, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1759691437084386, "dur":2130, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1759691437086520, "dur":688, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1759691437087209, "dur":4569, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1759691437091787, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nkums/Downloads/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1759691437091967, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1759691437133936, "dur":1483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1759691437135476, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1759691437135541, "dur":4671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1759691437140313, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1759691437140397, "dur":4583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1759691437145054, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1759691437145138, "dur":6471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1759691437151683, "dur":278, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1759691437151983, "dur":4703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":14, "ts":1759691437156735, "dur":1855116, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1759691437084406, "dur":2116, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1759691437086528, "dur":676, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1759691437087204, "dur":4508, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1759691437091716, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nkums/Downloads/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":15, "ts":1759691437091814, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1759691437112521, "dur":1090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":15, "ts":1759691437113656, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1759691437113722, "dur":2614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":15, "ts":1759691437116364, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1759691437116463, "dur":2186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":15, "ts":1759691437118806, "dur":1975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1759691437120850, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1759691437120957, "dur":1823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1759691437122921, "dur":2275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1759691437125234, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1759691437125297, "dur":5008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1759691437130345, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1759691437130422, "dur":3466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1759691437133934, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1759691437134033, "dur":3969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1759691437138058, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1759691437138217, "dur":4537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1759691437142855, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1759691437143045, "dur":5216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1759691437148379, "dur":15687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1759691437164097, "dur":1847814, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1759691437084439, "dur":2262, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1759691437086722, "dur":676, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1759691437087398, "dur":4307, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1759691437091718, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":16, "ts":1759691437091709, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nkums/Downloads/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":16, "ts":1759691437091797, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1759691437113542, "dur":912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":16, "ts":1759691437114535, "dur":2388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":16, "ts":1759691437116957, "dur":2189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":16, "ts":1759691437119220, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1759691437119298, "dur":2259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1759691437121658, "dur":2055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1759691437123762, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1759691437123827, "dur":2568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1759691437126517, "dur":5230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1759691437131861, "dur":3989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1759691437135888, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1759691437135966, "dur":4351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1759691437140352, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1759691437140483, "dur":4720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1759691437145250, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1759691437145348, "dur":6398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1759691437152185, "dur":1991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":16, "ts":1759691437154271, "dur":5183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":16, "ts":1759691437159506, "dur":1852375, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1759691437084466, "dur":2290, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1759691437086761, "dur":376, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1759691437087138, "dur":4650, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1759691437091804, "dur":179, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":17, "ts":1759691437091797, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nkums/Downloads/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":17, "ts":1759691437091985, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1759691437143005, "dur":2801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":17, "ts":1759691437145866, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1759691437153906, "dur":172, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1759691437146034, "dur":8130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1759691437154251, "dur":5297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":17, "ts":1759691437159576, "dur":1852373, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1759691437084613, "dur":2191, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1759691437086805, "dur":5086, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1759691437091897, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":18, "ts":1759691437091894, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nkums/Downloads/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":18, "ts":1759691437103762, "dur":1073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":18, "ts":1759691437104904, "dur":554, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1759691437105470, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":18, "ts":1759691437106508, "dur":778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":18, "ts":1759691437107341, "dur":1142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":18, "ts":1759691437108558, "dur":2145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":18, "ts":1759691437110755, "dur":1130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":18, "ts":1759691437111954, "dur":1312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":18, "ts":1759691437113355, "dur":1641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":18, "ts":1759691437115074, "dur":1196, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1759691437116284, "dur":1863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":18, "ts":1759691437118299, "dur":1491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":18, "ts":1759691437119824, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1759691437119921, "dur":2156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1759691437122105, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1759691437122182, "dur":2452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1759691437124736, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1759691437124826, "dur":4685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1759691437129558, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1759691437129628, "dur":3777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1759691437133508, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1759691437133648, "dur":4120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1759691437137825, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1759691437137923, "dur":4149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1759691437142107, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1759691437142203, "dur":4673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1759691437154017, "dur":126, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1759691437146985, "dur":7194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1759691437154248, "dur":4523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/level0" }}
+,{ "pid":12345, "tid":18, "ts":1759691437158822, "dur":1853052, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1759691437084620, "dur":2188, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1759691437086808, "dur":5091, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1759691437091902, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nkums/Downloads/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":19, "ts":1759691437091977, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1759691437123320, "dur":1129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":19, "ts":1759691437124503, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1759691437124583, "dur":4462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1759691437129155, "dur":3441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1759691437132633, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1759691437132735, "dur":3920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1759691437136753, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1759691437136852, "dur":4483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1759691437141415, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1759691437141512, "dur":4690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1759691437152874, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1759691437146319, "dur":6676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1759691437153088, "dur":4928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/resources.assets" }}
+,{ "pid":12345, "tid":19, "ts":1759691437158069, "dur":1853794, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1759691437084849, "dur":1981, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1759691437086831, "dur":5053, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1759691437091888, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nkums/Downloads/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":20, "ts":1759691437091994, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1759691437144589, "dur":1410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":20, "ts":1759691437146093, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1759691437146186, "dur":6717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1759691437153010, "dur":6116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nkums/Downloads/SQUEEMAN_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":20, "ts":1759691437159172, "dur":1852689, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759691439017065, "dur":923, "ph":"X", "name": "ProfilerWriteOutput" }
+,
